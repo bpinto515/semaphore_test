@@ -1,5 +1,5 @@
 ---
-- hosts: fscloud-test
+- hosts: all
   become: true
   tasks:
     - name: Ping Google
