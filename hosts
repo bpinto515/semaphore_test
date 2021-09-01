@@ -1,0 +1,2 @@
+[fscloudapi]
+fscloud-test ansible_host=10.100.100.111
