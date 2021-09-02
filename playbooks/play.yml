@@ -4,3 +4,8 @@
   tasks:
     - name: Ping Google
       command: "ping -c 4 www.google.com"
+      register: banana
+      
+    - name: Print
+      debug:
+        var: banana
