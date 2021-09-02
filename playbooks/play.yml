@@ -8,4 +8,4 @@
       
     - name: Print
       debug:
-        var: banana
+        var: banana.stdout_lines
